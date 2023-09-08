@@ -10,12 +10,12 @@ html {
     box-sizing: inherit;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
 body {
     height: 100vh;
     display: flex;
-    font-family: "Julius Sans One", sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     background-image: url("../img/paul-pastourmatzis-mqO0Rf-PUMs-unsplash.jpg");
     background-size: cover;
 }
