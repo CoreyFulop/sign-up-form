@@ -91,18 +91,27 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 1.8rem;
+    box-shadow: 5px 10px 10px black;
+}
+
+.test-form-container > div:nth-child(2) > p {
+    margin-bottom: 10px;
 }
 
 .test-form-container > div:nth-child(3) {
     background-color: rgba(70, 169, 226, 0.7);
     flex: 1;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 1rem;;
+    font-size: 1.1rem;;
 }
 
 .form-row {
@@ -111,6 +120,38 @@ form {
 }
 
 .form-row > div {
+    width: clamp(100px, 50%, 300px);
     display: flex;
     flex-direction: column;
 }
+
+input {
+    border-radius: 5px;
+    height: 2rem;
+}
+
+input:focus {
+    outline-color: darkblue;
+}
+
+button[type="submit"] {
+    font-size: 1.1rem;
+    padding: 10px;
+    border-radius: 5px;
+    color: aqua;
+    background-color: black;
+
+}
+
+.test-form-container a {
+    font-weight: 900;
+}
+
+.test-form-container a:link {
+    color: black;
+}
+
+.test-form-container a:visited {
+    color: blanchedalmond;
+}
+
