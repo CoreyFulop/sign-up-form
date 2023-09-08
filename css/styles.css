@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    overflow: auto;
+    background-color: white;
 }
 
 *,
@@ -14,15 +16,14 @@ body {
     height: 100vh;
     display: flex;
     font-family: "Julius Sans One", sans-serif;
-    background-image: url("../img/paul-pastourmatzis-mqO0Rf-PUMs-unsplash.jpg");
-    background-color: white;
-    background-size: cover;
 }
 
 .visual-container {
     flex: 0 0 40%;
     display: flex;
     flex-direction: column;
+    background-image: url("../img/paul-pastourmatzis-mqO0Rf-PUMs-unsplash.jpg");
+    background-size: cover;
 }
 
 .visual-container > div:nth-child(1) {
@@ -50,7 +51,7 @@ body {
 }
 
 .visual-container > div:nth-child(3) {
-    flex: 0 0 50%;
+    flex: 1;
     display: flex;
     flex-direction: column;
     font-size: 0.7rem;
