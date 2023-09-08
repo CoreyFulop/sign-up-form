@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: "Julius Sans One", sans-serif;
+    background-image: url("../img/paul-pastourmatzis-mqO0Rf-PUMs-unsplash.jpg");
+    background-color: white;
+    background-size: cover;
+}
+
+.visual-container {
+    flex: 0 0 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.visual-container > div:nth-child(1) {
+    flex: 0 0 20%;
+}
+
+.visual-container > div:nth-child(2) {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 30%;
+    background-color: black;
+    opacity: 0.40;
+    color: blanchedalmond;
+    font-size: 2rem;
+    gap: 20px;
+    position: relative;
+}
+
+.visual-container > :nth-child(2) > svg {
+    position: relative;
+    top: 5%;
+    width: 30%;
+    fill: blanchedalmond;
+}
+
+.visual-container > div:nth-child(3) {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.visual-container > div:nth-child(3) a:link {
+    color: black;
+}
+
+.visual-container > div:nth-child(3) a:visited {
+    color: blanchedalmond;
+}
