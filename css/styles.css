@@ -130,8 +130,16 @@ input {
     height: 2rem;
 }
 
-input:focus {
+input:valid {
     outline-color: darkblue;
+}
+
+input:invalid {
+    outline-color: darkred;
+}
+
+input:focus {
+    box-shadow: 2px 2px 5px black;
 }
 
 button[type="submit"] {
@@ -140,7 +148,11 @@ button[type="submit"] {
     border-radius: 5px;
     color: aqua;
     background-color: black;
+    box-shadow: 2px 2px 5px black;
+}
 
+button[type="submit"]:active {
+    box-shadow: none;
 }
 
 .test-form-container a {
