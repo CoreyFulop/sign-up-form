@@ -16,18 +16,18 @@ body {
     height: 100vh;
     display: flex;
     font-family: "Julius Sans One", sans-serif;
+    background-image: url("../img/paul-pastourmatzis-mqO0Rf-PUMs-unsplash.jpg");
+    background-size: cover;
 }
 
 .visual-container {
     flex: 0 0 40%;
     display: flex;
     flex-direction: column;
-    background-image: url("../img/paul-pastourmatzis-mqO0Rf-PUMs-unsplash.jpg");
-    background-size: cover;
 }
 
 .visual-container > div:nth-child(1) {
-    flex: 0 0 20%;
+    height: 10vh;
 }
 
 .visual-container > div:nth-child(2) {
@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 0 30%;
+    height: 30vh;
     background-color: rgba(0, 0, 0, 0.4);
     color: blanchedalmond;
     font-size: 2rem;
@@ -69,5 +69,28 @@ body {
 
 .test-form-container {
     flex: 0 0 60%;
-    background-color: rgb(70, 169, 226);
+    display: flex;
+    flex-direction: column;
+}
+
+.test-form-container > div:nth-child(1) {
+    background-color: rgba(70, 169, 226, 0.7);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    font-size: 1.8rem;
+    justify-content: center;
+    line-height: 2.3rem;
+    color: black;
+}
+
+.test-form-container > div:nth-child(2) {
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.test-form-container > div:nth-child(3) {
+    background-color: rgba(70, 169, 226, 0.7);
+    flex: 1;
 }
