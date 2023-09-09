@@ -167,3 +167,12 @@ button[type="submit"]:active {
     color: blanchedalmond;
 }
 
+.form-row span {
+    margin-top: 5px;
+    font-size: 1rem;
+    color: red;
+}
+
+:required:valid {
+    background-color: lightgreen;
+}
